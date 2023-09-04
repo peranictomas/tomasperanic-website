@@ -1,8 +1,54 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+
 }
 
-<div class="text-center">
-    <h1 class="display-4">This is my personal website</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">Currently is a work in progress... Come back soon !</a>.</p>
-</div>
+<style>
+    #profilePicture{
+        clip-path: circle();
+    }
+    .black-border{
+        border: 1px solid black;
+    }
+    #paddingTop{
+        padding-top: 5%;
+        padding-left: 1%;
+    }
+    #marginIconSpacing{
+        margin-right: 3%;
+    }
+
+</style>
+
+
+    <div class="container">
+    <div class="row justify-content-center">
+            <div class="col-lg-4 col-sm justify-content-center">
+                <img src="images/profilePicture.jpg" class="img-fluid rounded float-start justify-content-center" id="profilePicture" alt="Responsive image" />
+            </div>
+            
+            <div class="col-lg-8 col-sm">
+                <div class="row" id="paddingTop">
+                <h1>Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.</h1>
+                <h3>-Albert Einstein</h3>
+                </div>
+                <div class="row"" id="paddingTop">
+                    <h3>In this section i will write about my self. What i like to do and other things that interest me!</h3>
+                    <h3>WORK IN PROGRESS</h3>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="row justify-content-between" id="paddingTop" style="padding-bottom: 2%;">
+            
+        <div class="col text-center">
+            <i class="fa-brands fa-linkedin fa-2xl" id="marginIconSpacing"></i>
+            <i class="fa-solid fa-envelope fa-2xl" id="marginIconSpacing"></i>
+            <i class="fa-brands fa-github fa-2xl" ></i>
+            </div>
+      
+        </div>
+        
+    </div>
+    
